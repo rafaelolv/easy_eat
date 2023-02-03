@@ -23,6 +23,8 @@ app.use(express.urlencoded({ limit: '50mb', extended: true })); /* bodyParser.ur
 
 // app.use("/cadastrousuario", UsuarioRoutes);
 
+require("../routers/restauranteRoutes")(app);
+
 // server.get('/hello', function (req, res) {
 //     res.send('Hello World!')
 // })
