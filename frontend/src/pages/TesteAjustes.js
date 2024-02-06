@@ -9,6 +9,8 @@ const TesteAjuste = () => {
         <div className={styleFormRestaurante.boxForm}>
 
             <p>Ajustes de Ajustes</p>
+
+            <p>Ajustes de Ajustes2</p>
             
         </div>
     )
