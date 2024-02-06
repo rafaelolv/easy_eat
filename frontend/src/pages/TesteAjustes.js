@@ -2,19 +2,17 @@ import { React } from 'react';
 
 
 
-const Form = () => {
+const TesteAjuste = () => {
 
 
     return (
         <div className={styleFormRestaurante.boxForm}>
 
-            {/* <p>Ajustes da reserva opr</p> */}
-
-            <p>Ajuste na reserva opr</p>
+            <p>Ajustes de Ajustes</p>
             
         </div>
     )
 
 }
 
-export default Form;
+export default TesteAjuste;
